@@ -2,10 +2,17 @@
 
 .App {
   text-align: center;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 html {
   scroll-behavior: smooth;
+}
+.section {
+  min-height: 100vh; /* Take up full viewport height */
+  scroll-snap-align: start; /* Snap scrolling to the start of each section */
+  scroll-margin-top: 1px; /* Ensure the next section starts immediately after scrolling */
+  scroll-snap-type: y mandatory; /* Force vertical scrolling to snap to sections */
 }
 
 .App-header {

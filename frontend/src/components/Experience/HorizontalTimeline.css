@@ -44,7 +44,7 @@
   .timeline-date {
     font-size: 12px;
     font-weight: bold;
-    color: #333; /* Adjust as needed */
+    color: #666666; /* Adjust as needed */
     position: absolute;
     top: -38px; /* Adjust position above the dot */
     left: 50%;
@@ -63,7 +63,7 @@
   
   .timeline-content p {
     font-size: 14px;
-    color: #666;
+    color: #666666;
     margin-top: 0px;
   }
   

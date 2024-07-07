@@ -1,0 +1,46 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .projects-header {
+   
+  }
+  
+  .project-list {
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly with less gap */
+    gap:  -10000rem; /* Adjust the gap between project items */
+    margin-top: 20px; /* Adjust as needed */
+    width: 70%;
+  }
+  
+  .project-item {
+    width: 17rem; /* Adjust the width of each project item */
+    height: auto; /* Ensure square shape */
+    background-color: #D0C9C0; /* Example background color */
+    border: 1px solid #ccc; /* Example border */
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+  }
+
+  .project-item:hover {
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .project-content {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Example text color */
+  }
+  
