@@ -9,7 +9,7 @@
   .timeline {
     position: relative;
     display: flex;
-    width: 78rem; /* Adjusted width to span 80% of the page */
+    width: 80vw; /* Adjusted width to span 80% of the page */
     justify-content: space-between;
     align-items: flex-start;
   }
@@ -46,7 +46,7 @@
     font-weight: bold;
     color: #333; /* Adjust as needed */
     position: absolute;
-    top: -30px; /* Adjust position above the dot */
+    top: -38px; /* Adjust position above the dot */
     left: 50%;
     transform: translateX(-50%);
     width: 10rem;
@@ -57,8 +57,8 @@
   }
   
   .timeline-content h4 {
-    font-size: 18px;
-    margin: 10px 0;
+    font-size: 17px;
+    margin: 7px 0;
   }
   
   .timeline-content p {

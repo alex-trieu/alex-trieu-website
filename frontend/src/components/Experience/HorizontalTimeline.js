@@ -30,7 +30,7 @@ const HorizontalTimeline = () => {
           </div>
         </div>
         <div className="timeline-item">
-          <div className="timeline-date">June 2024 - August 2024</div>
+          <div className="timeline-date">June 2024 - Present</div>
           <div className="timeline-dot"></div>
           <div className="timeline-content">
             <h4>Software Engineer Intern - Backend</h4>
