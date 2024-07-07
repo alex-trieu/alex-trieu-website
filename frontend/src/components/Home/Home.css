@@ -79,11 +79,12 @@
     }
 
     .down-arrow-container {
-        position: fixed;
-        bottom: 20px; /* Adjust this value to set the distance from the bottom */
+        position: absolute;
+        bottom: -20px; /* Adjust this value to set the distance from the bottom */
         left: 50%; /* Center horizontally */
         transform: translateX(-50%);
         animation: bounce 1.3s infinite;
+        
       }
       
       .down-arrow {
@@ -94,11 +95,13 @@
         cursor: pointer;
         transition: transform 0.3s;
         width: 24px;
-        height: auto
+        height: auto;
+        
       }
       
       .down-arrow:hover {
-        transform: scale(1.2);
+        transform: scale(1.4);
+        filter: brightness(80%);
       }
       
       @keyframes bounce {
@@ -106,6 +109,6 @@
           transform: translateY(0); /* Start and end position */
         }
         50% {
-          transform: translateY(-10px); /* Bounce up */
+          transform: translateY(-5px); /* Bounce up */
         }
       }

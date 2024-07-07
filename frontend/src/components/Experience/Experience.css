@@ -1,0 +1,26 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .rectangles {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between the rectangles */
+    margin-top: 0px;
+  }
+  
+  .rectangle {
+    width: 500px; /* Width of the rectangle */
+    height: 300px; /* Height of the rectangle */
+    background-color: #D0C9C0; /* Example background color */
+    border: 0px solid #ccc; /* Example border */
+    border-radius: 10px;   
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+  }
+  
